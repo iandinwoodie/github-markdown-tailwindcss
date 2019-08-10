@@ -1,22 +1,45 @@
 # github-markdown-tailwindcss
-Replicate GitHub Flavored Markdown with Tailwind CSS components
 
-## Note for Users
+⛵ Replicate GitHub Flavored Markdown with Tailwind CSS components
 
-The `markdown` rules defined in the stylesheet are currently nested for use with `postcss-nesting`. To use this stylesheet without nesting the conversion is quite simple:
+## Usage
 
-```css
-/* Nested */
-.markdown {
-  & p {
-    @apply text-base;
-  }
-}
+To use, include the provided style sheet (`markdown.css`) and add `markdown` as
+a class attribute to any element that you wish to render as Github Flavored
+Markdown (GFM).
 
-/* Unnested */
-.markdown p {
-  @apply text-base;
-}
+### Example
+
+```html
+<!-- Rendered in default Tailwind style -->
+<h1>Header</h1>
+
+<!-- Rendered in GFM style -->
+<h1 class="markdown">Header</h1>
 ```
 
-I will unnest the stylesheet this evening (8/9/2019) so that its use in its default state isn't tied to a specific workflow. For those who use nesting I will provide a script to generate a nested stylesheet.
+## Working with Hugo
+
+You can use this style sheet to style your generate Hugo content. To do so, wrap
+your content with an element with the `markdown` class attribute.
+
+### Example
+
+```html
+<div class="markdown">
+  {{ .Content }}
+</div>
+```
+
+## Nesting
+
+For those of you who wish to have the class rules nested I have provided a
+simple python script (`nest.py`) to generate a style sheet with nesting
+(`markdown-nested.css`). The nesting script just applies a very simple
+reformatting.
+
+### Using the Nest Script
+
+```bash
+python nest.py
+```
