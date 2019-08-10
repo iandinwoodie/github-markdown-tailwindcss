@@ -49,3 +49,7 @@ python nest.py
 - Report issues
 - Open pull request with improvements
 - Spread the word
+
+## 📖 References
+
+The idea to use the `@apply` directive to create Markdown class rules was concieved by [@adamwathan](https://github.com/adamwathan) (the creator of Tailwind CSS). He first publicized this idea in a [comment](https://github.com/tailwindcss/discuss/issues/243#issuecomment-481175230) on an issue in the Tailwind CSS discussion repository.
