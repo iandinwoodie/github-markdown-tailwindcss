@@ -4,9 +4,8 @@
 
 ## Usage
 
-To use, include the provided style sheet (`markdown.css`) and add `markdown` as
-a class attribute to any element that you wish to render as Github Flavored
-Markdown (GFM).
+To use, include the provided style sheet (`markdown.css`) and add the `markdown`
+class to any element that you wish to render as Github Flavored Markdown (GFM).
 
 ### Example
 
@@ -20,8 +19,8 @@ Markdown (GFM).
 
 ## Working with Hugo
 
-You can use this style sheet to style your generate Hugo content. To do so, wrap
-your content with an element with the `markdown` class attribute.
+You can use this style sheet to style your generated Hugo content. To do so,
+wrap your content with an element that contains the `markdown` class.
 
 ### Example
 
