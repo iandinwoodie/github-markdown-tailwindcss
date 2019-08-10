@@ -26,7 +26,7 @@ def reformat_lines(lines):
             nested = True
             leave_open = False
         else:
-            if nested:
+            if line and nested:
                 line = '  {}'.format(line)
             reformatted.append(line)
     reformatted.append('}')
