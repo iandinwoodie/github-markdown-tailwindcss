@@ -2,7 +2,7 @@
 
 ⛵ Replicate GitHub Flavored Markdown with Tailwind CSS components
 
-## Usage
+## 🔩 Usage
 
 To use, include the provided style sheet (`markdown.css`) and add the `markdown`
 class to any element that you wish to render as Github Flavored Markdown (GFM).
@@ -16,8 +16,7 @@ class to any element that you wish to render as Github Flavored Markdown (GFM).
 <!-- Rendered in GFM style -->
 <h1 class="markdown">Header</h1>
 ```
-
-## Working with Hugo
+## ![favicon-32x32](https://user-images.githubusercontent.com/20260845/62817975-cd02ea00-bb0d-11e9-9553-077e509cf3f5.png)&nbsp;Working with Hugo
 
 You can use this style sheet to style your generated Hugo content. To do so,
 wrap your content with an element that contains the `markdown` class.
@@ -30,7 +29,7 @@ wrap your content with an element that contains the `markdown` class.
 </div>
 ```
 
-## Nesting
+## 🕊️ Nesting
 
 For those of you who wish to have the class rules nested I have provided a
 simple python script (`nest.py`) to generate a style sheet with nesting
