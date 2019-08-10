@@ -1,6 +1,8 @@
-# github-markdown-tailwindcss
+<h1 align="center">github-markdown-tailwindcss</h1>
 
+<p align="center">
 ⛵ Replicate GitHub Flavored Markdown with Tailwind CSS components
+</p>
 
 ## 🔩 Usage
 
