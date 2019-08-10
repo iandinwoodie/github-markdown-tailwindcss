@@ -42,3 +42,9 @@ reformatting.
 ```bash
 python nest.py
 ```
+
+## 👬 Contribution
+
+- Report issues
+- Open pull request with improvements
+- Spread the word
